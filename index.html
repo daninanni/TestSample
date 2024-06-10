@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+
+    <title>Alpha Efficiency Task</title>
+  </head>
+
+  <body>
+    <header>
+      <img class="header-graphic-rectangle" src="./img/header-graphic-rectangle.svg" />
+      <img class="m-1 graphic-m-right" src="./img/header-m-1.svg" />
+      <img class="t-1 graphic-t-right" src="./img/header-t-1.svg" />
+      <img class="t-2 graphic-t-left" src="./img/header-t-2.svg" />
+      <img class="d-1 graphic-d-left" src="./img/header-d-1.svg" />
+      <img class="d-2 graphic-d-right" src="./img/header-d-2.svg" />
+
+
+      <div class="container">
+        <img src="./img/Group 45.svg" alt="logo" class="logo" />
+
+        <nav id="menu-desktop" class="mobile-hidden tablet-hidden">
+          <ul class="navbar">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Book Online</a></li>
+            <li><a href="#">Weight Loss Programs</a></li>
+            <li><a href="#">Real Patient Stories</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shops</a></li>
+            <li><a href="#">Subscription</a></li>
+          </ul>
+        </nav>
+
+        <button id="menu-button" class="desktop-hidden">
+          <img src="./img/hamburger-menu.svg" alt="" />
+        </button>
+      </div>
+
+      <nav id="menu" class="hidden desktop-hidden">
+        <ul class="navbar desktop-hidden">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Book Online</a></li>
+          <li><a href="#">Weight Loss Programs</a></li>
+          <li><a href="#">Real Patient Stories</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Subscription</a></li>
+        </ul>
+      </nav>
+      <section class="section-head">
+        <div>
+          <div>
+            <h1>Chicago’s <span>Free</span> Medical Check-Up and Weight Loss Consultation</h1>
+            <p class="disclaimer mobile-hidden tablet-hidden">
+              Limited spots available due to the Physicians schedule and the high demand for service. No credit card or insurance required.
+            </p>
+          </div>
+
+          <p class="desktop-hidden">Only <span>11</span> spots available!</p>
+
+          <!--counter-->
+          <div class="counter frost-effect">
+            <p>Your offer ends in:</p>
+            <div class="date-container">
+              <div>
+                <p>DAYS</p>
+                <p id="days">00</p>
+              </div>
+
+              <div>
+                <p>HOURS</p>
+                <p id="hours">00</p>
+              </div>
+
+              <div>
+                <p>MINUTES</p>
+                <p id="minutes">00</p>
+              </div>
+
+              <div>
+                <p>SECONDS</p>
+                <p id="seconds">00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="desktop-hidden">
+          There are limited spots due to the Physicians schedule and the high demand for service. No credit card or insurance required.
+        </p>
+
+        <button>Book my appointment</button>
+      </section>
+    </header>
+
+    <section class="section-facts">
+      <img class="m-1 graphic-m-right" src="./img/facts-m-1.svg" />
+      <img class="m-2 graphic-m-left" src="./img/facts-m-2.svg" />
+      <img class="t-1 graphic-t-right" src="./img/facts-t-1.svg" />
+      <img class="d-1 graphic-d-left" src="./img/facts-d-1.svg" />
+      <img class="d-2 graphic-d-right" src="./img/facts-d-2.svg" />
+
+      <div class="card-container">
+        <div class="card">
+          <img src="./img/briefcase.svg" alt="" class="desktop-hidden" />
+          <img src="./img/briefcase-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          <p>10<span class="plus-icon">+</span></p>
+          <p>years in business</p>
+        </div>
+        <div class="card">
+          <img src="./img/smile.svg" alt="" class="desktop-hidden" />
+          <img src="./img/smile-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          <p>2000<span class="plus-icon">+</span></p>
+          <p>positive reviews</p>
+        </div>
+        <div class="card">
+          <img src="./img/message-circle.svg" alt="" class="desktop-hidden" />
+          <img src="./img/message-circle-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          <p>15.000<span class="plus-icon">+</span></p>
+          <p>satisfied clients</p>
+        </div>
+        <div class="card">
+          <img src="./img/activity.svg" alt="" class="desktop-hidden" />
+          <img src="./img/activity-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          <p>Many<span class="plus-icon">+</span></p>
+          <p>nurses and physician assistants on staff</p>
+        </div>
+      </div>
+      <button>Book my appointment</button>
+    </section>
+
+    <section class="section-to-know">
+      <img class="m-1 graphic-m-right" src="./img/to-know-m-1.svg" />
+      <img class="t-1 graphic-t-right" src="./img/to-know-t-1.svg" />
+      <img class="t-2 graphic-t-left" src="./img/to-know-t-2.svg" />
+      <img class="d-1 graphic-d-left" src="./img/to-know-d-1.svg" />
+      <img class="d-2 graphic-d-right" src="./img/to-know-d-2.svg" />
+      <div>
+        <div>
+          <h2>Who Is The Consultation For?</h2>
+          <p>
+            Chicago’s free medical check-up and weight loss consultation is for Chicago residents who are looking to lose weight so they can live a long,
+            vibrant and healthy life, while looking good and not breaking the bank.
+          </p>
+        </div>
+        <div>
+          <h2>How Does It Work?</h2>
+          <p>
+            In this exam a certified nurse or physician will do various tests to check your overall health level and find which easy-to-do physician-supervised
+            weight loss program will work best for you.
+          </p>
+        </div>
+        <button>Book my appointment</button>
+      </div>
+      <img src="./img/Group 674.svg" alt="" class="tablet-hidden desktop-hidden" />
+      <img src="./img/to-know-tablet.svg" alt="" class="mobile-hidden desktop-hidden" />
+      <img src="./img/to-know-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+    </section>
+
+    <section class="section-help-you">
+      <img class="m-1 graphic-m-right" src="./img/help-m-1.svg" />
+      <img class="t-1 graphic-t-right" src="./img/help-t-1.svg" />
+      <div>
+        <h2>We Can Help You</h2>
+
+        <p class="mobile desktop-hidden">
+          For those of us who struggle with our weight it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not
+          work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry.
+        </p>
+        <p class="desktop mobile-hidden tablet-hidden">
+          For those of us who struggle with our weight it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not
+          work for us. They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry. We are here to tell you that it doesn’t
+          have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper guidance...
+        </p>
+        <p class="mobile desktop-hidden">
+          We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in recent years and now, with proper
+          guidance...
+        </p>
+      </div>
+      <img src="./img/cXkT94Zs 1.svg" alt="" class="main-pic tablet-hidden desktop-hidden" />
+      <img src="./img/cXkT94Zs 1.jpg" alt="" class="main-pic mobile-hidden desktop-hidden" />
+
+      <div>
+        <p>
+          You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and are living happy exuberant lives with
+          their family. They did this without: breaking the bank, sweating buckets in intense workout programs, and most importantly, without giving up
+          ice-cream, bread, pizza, doughnuts and all their favorite foods.
+        </p>
+      </div>
+      <button class="desktop-hidden">See patient stories</button>
+      <button class="mobile-hidden tablet-hidden">Book my appointment</button>
+      <div class="img-container">
+        <img src="./img/help-desktop.png" alt="" class="mobile-hidden tablet-hidden" />
+      </div>
+    </section>
+
+    <section class="section-free-consultation">
+      <img class="m-1 graphic-m-left" src="./img/free-m-1.svg" />
+      <img class="m-2 graphic-m-right" src="./img/free-m-2.svg" />
+      <img class="t-1 graphic-t-left" src="./img/free-t-1.svg" />
+      <img class="t-2 graphic-t-right" src="./img/free-t-2.svg" />
+      <img class="t-3 graphic-t-left" src="./img/free-t-3.svg" />
+      <img class="d-1 graphic-d-left" src="./img/free-d-1.svg" />
+      <img class="d-2 graphic-d-right" src="./img/free-d-2.svg" />
+      <img class="d-3 graphic-d-right" src="./img/free-d-3.svg" />
+      <h2>
+        What You’ll Get At Your
+        <span>Free</span> Consultation
+      </h2>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Body Mass Index</h3>
+          <hr noshade size="1" />
+          <ul>
+            <li>Complete understanding of your body composition</li>
+            <li>A clear view of your weight loss goals</li>
+            <li>Clear data to help you make an informed decision about your health</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Vital Signs Check</h3>
+          <hr noshade size="1" />
+          <ul>
+            <li>Body temperature</li>
+            <li>Pulse rate, heart's rate, rhythm and regularity</li>
+            <li>Breathing rate</li>
+            <li>Blood pressure</li>
+          </ul>
+        </div>
+      </div>
+
+      <button>Book my appointment</button>
+    </section>
+
+    <section class="section-faq">
+      <img class="m-1 graphic-m-right" src="./img/faq-m-1.svg" />
+      <img class="d-1 graphic-d-right" src="./img/faq-d-1.svg" />
+      <img class="d-2 graphic-d-left" src="./img/faq-d-2.svg" />
+      <img class="d-3 graphic-d-right" src="./img/faq-d-3.svg" />
+      
+      <h2>Frequently Asked Questions</h2>
+      <div class="collapsibles-container">
+        <details>
+          <summary>
+            Why is it free?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Do I need this if I’ve had my yearly medical check? What is the difference?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Can I bring another person to the appointment?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            How long does it take?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            What if I have to cancel or if I’m not sure I’ll be able to make it?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Do I need to bring anything with me?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            What if I don’t have insurance?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Do the weight loss programs you offer work?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            What’s the catch?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Will I have to exhaust myself in the gym to make it work?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+        <details>
+          <summary>
+            Where are you located?<img src="./img/chevron-down.svg" alt="" class="desktop-hidden" />
+            <img src="./img/chevron-down-desktop.svg" alt="" class="mobile-hidden tablet-hidden" />
+          </summary>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ipsam veniam sit sunt reiciendis ad, dolores illum voluptates vel laudantium!
+          Distinctio repudiandae in expedita iusto quidem dignissimos dolorum minima veniam!
+        </details>
+      </div>
+      <button class="mobile-hidden">Book my appointment</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <img class="m-1 graphic-m-right" src="./img/footer-m-1.svg" />
+    <img class="t-1 graphic-t-left" src="./img/footer-t-1.svg" />
+    <img class="t-2 graphic-t-right" src="./img/footer-t-2.svg" />
+    <img class="d-1 graphic-d-left" src="./img/footer-d-1.svg" />
+    <img class="d-2 graphic-d-right" src="./img/footer-d-2.svg" />
+
+    <div class="summary-contact-group">
+      <div class="summary">
+        <img src="./img/Group 45.svg" alt="A better weigh logo" class="logo" />
+        <p>
+          A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long term weight loss success with the use of
+          FDA approved medication.
+        </p>
+      </div>
+
+      <div class="contact">
+        <div class="card">
+          <div class="icon">
+            <img src="./img/Vector.svg" alt="" />
+          </div>
+          <div>
+            <p class="title">Head Office:</p>
+            <p class="value">1931 W 95th Streeet Chicago IL, 60643</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="./img/Vector (1).svg" alt="" />
+          </div>
+          <div>
+            <p class="title">Phone:</p>
+            <p class="value">773-496-4222</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="about">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Book Online</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Real Patient Stories</a></li>
+          <li><a href="#">Weight Loss Programs</a></li>
+        </ul>
+      </div>
+
+      <div class="more">
+        <h3>More Links</h3>
+        <ul>
+          <li><a href="#">Franchise Opportunities</a></li>
+          <li><a href="#">Career Opportunities</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Return Policy</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--div class="social-copyright-group"-->
+    <nav class="social-links">
+      <a href="#">
+        <img src="./img/instagram icon.svg" alt="" />
+      </a>
+      <a href="#">
+        <img src="./img/twitter icon.svg" alt="" />
+      </a>
+      <a href="#">
+        <img src="./img/facebook icon.svg" alt="" />
+      </a>
+    </nav>
+    <p class="copyright">Copyright by A Better Weigh Inc. All rights reserved.</p>
+    <!--/div-->
+  </footer>
+</html>
